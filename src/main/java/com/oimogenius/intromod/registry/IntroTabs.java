@@ -28,6 +28,8 @@ public class IntroTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(IntroItems.SALT.get());
                         pOutput.accept(IntroItems.BUTTER.get());
+                        pOutput.accept(IntroItems.BUTTERED_POTATO.get());
+                        pOutput.accept(IntroItems.RUM.get());
                     })
                     // 検索バーを追加
                     .withSearchBar()
