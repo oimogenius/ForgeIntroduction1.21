@@ -1,6 +1,8 @@
 package com.oimogenius.intromod;
 
 import com.mojang.logging.LogUtils;
+import com.oimogenius.intromod.registry.IntroItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -23,6 +25,8 @@ public class IntroMod {
 
         modEventBus.addListener(this::commonSetup);
 
+        // レジストリをイベントバスに登録
+        IntroItems.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -34,6 +38,10 @@ public class IntroMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(IntroItems.SALT);
+            event.accept(IntroItems.BUTTER);
+        }
     }
 
     @SubscribeEvent
