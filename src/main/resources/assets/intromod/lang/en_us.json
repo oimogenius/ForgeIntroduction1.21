@@ -3,5 +3,6 @@
   "item.intromod.butter": "Butter",
   "item.intromod.buttered_potato": "Buttered Potato",
   "item.intromod.rum": "Rum",
-  "creativetabs.intro_tab": "Introduction"
+  "creativetabs.intro_tab": "Introduction",
+  "block.intromod.salt_block": "Salt Block"
 }

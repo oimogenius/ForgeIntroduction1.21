@@ -1,6 +1,7 @@
 package com.oimogenius.intromod;
 
 import com.mojang.logging.LogUtils;
+import com.oimogenius.intromod.registry.IntroBlocks;
 import com.oimogenius.intromod.registry.IntroItems;
 import com.oimogenius.intromod.registry.IntroTabs;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -29,6 +30,7 @@ public class IntroMod {
         // レジストリをイベントバスに登録
         IntroItems.register(modEventBus);
         IntroTabs.register(modEventBus);
+        IntroBlocks.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
