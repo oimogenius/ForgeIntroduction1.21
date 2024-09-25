@@ -1,8 +1,8 @@
 {
-  "item.intromod.salt": "Salt",
+  "block.intromod.salt_block": "Salt Block",
+  "creativetabs.intro_tab": "Introduction",
   "item.intromod.butter": "Butter",
   "item.intromod.buttered_potato": "Buttered Potato",
   "item.intromod.rum": "Rum",
-  "creativetabs.intro_tab": "Introduction",
-  "block.intromod.salt_block": "Salt Block"
+  "item.intromod.salt": "Salt"
 }
