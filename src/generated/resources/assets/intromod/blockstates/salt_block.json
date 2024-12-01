@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "intromod:block/salt_block"
+    }
+  }
+}
