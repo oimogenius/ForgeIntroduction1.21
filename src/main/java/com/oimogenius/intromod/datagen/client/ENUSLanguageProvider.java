@@ -19,6 +19,7 @@ public class ENUSLanguageProvider extends LanguageProvider {
         addItem(IntroItems.SALT, "Salt");
         addItem(IntroItems.BUTTERED_POTATO, "Buttered Potato");
         addItem(IntroItems.RUM, "Rum");
+        addItem(IntroItems.ORIHALCON_TOMAHAWK, "Orihalcon Tomahawk");
 
         add("creativetabs.intro_tab", "Introduction");
 

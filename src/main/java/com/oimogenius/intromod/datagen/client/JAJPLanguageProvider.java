@@ -19,6 +19,7 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(IntroItems.SALT, "塩");
         addItem(IntroItems.BUTTERED_POTATO, "じゃがバター");
         addItem(IntroItems.RUM, "ラム酒");
+        addItem(IntroItems.ORIHALCON_TOMAHAWK, "オリハルコンのトマホーク");
 
         add("creativetabs.intro_tab", "入門");
 

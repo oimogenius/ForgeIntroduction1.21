@@ -31,6 +31,7 @@ public class IntroTabs {
                         pOutput.accept(IntroItems.BUTTERED_POTATO.get());
                         pOutput.accept(IntroItems.RUM.get());
                         pOutput.accept(IntroBlocks.SALT_BLOCK.get());
+                        pOutput.accept(IntroItems.ORIHALCON_TOMAHAWK.get());
                     })
                     // 検索バーを追加
                     .withSearchBar()

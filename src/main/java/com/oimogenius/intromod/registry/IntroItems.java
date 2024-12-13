@@ -32,6 +32,9 @@ public class IntroItems {
     // 飲み物
     public static final RegistryObject<Item> RUM = ITEMS.register("rum",
             () -> new RumItem(new Item.Properties()));
+    // オリハルコントマホーク
+    public static final RegistryObject<Item> ORIHALCON_TOMAHAWK = ITEMS.register("orihalcon_tomahawk",
+            () -> new Item(new Item.Properties()));
 
     // レジストリをイベントバスに登録
     public static void register(IEventBus eventBus) {
